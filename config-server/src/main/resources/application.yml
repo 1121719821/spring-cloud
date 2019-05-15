@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          # Git 仓库地址
+          uri: http://10.3.70.166/SongChangJun/config-repo.git
+          username: SongChangJun
+          password: scj941115
